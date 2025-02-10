@@ -1,7 +1,7 @@
 # **Projet Kafka - Streaming et Traitement des Données de Films**
 
 ## 📌 **Description**
-Ce projet met en place une architecture de streaming de données avec **Apache Kafka** pour la collecte et le traitement des films obtenus depuis l’API **TMDb (The Movie Database)**.  
+Ce projet met en place une architecture de streaming de données avec **Apache Kafka** pour la collecte et le traitement des films obtenus depuis l’API **IMDb (The Movie Database)**.  
 Les données sont produites par un **Kafka Producer**, consommées par un **Kafka Consumer** et stockées dans une base de données **SQLite**.  
 Un serveur **Flask** permet d’interagir avec ces données.
 
@@ -42,7 +42,7 @@ Cela va :
 
 ### **Kafka Producer**
 - Situé dans `kafka_producer.py`.
-- Se connecte à **TMDb API**.
+- Se connecte à **IMDb API**.
 - Envoie les films sous forme de messages JSON dans le topic Kafka `tmdb_movies`.
 
 ### **Kafka Consumer**
