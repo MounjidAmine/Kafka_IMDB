@@ -24,8 +24,8 @@ Le projet est structuré en plusieurs services :
 
 ### **2️⃣ Cloner le dépôt**
 ```bash
-git clone <URL_DU_REPO>
-cd kafka-project
+git clone https://github.com/MounjidAmine/Kafka_IMDB.git
+cd Kafka_IMDB
 ```
 
 ### **3️⃣ Construire et Lancer les Conteneurs**
